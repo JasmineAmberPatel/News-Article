@@ -1,0 +1,38 @@
+header {
+    color: white;
+    background: black;
+    padding: 30px;
+}
+ul {
+    list-style-type: none;
+    display: inline;
+}
+li {
+    float: left;
+    padding: 14px 16px;
+    text-decoration-line: underline;
+}
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+article {
+    padding: 30px;
+    width: 66.66%;
+}
+aside {
+    width: 33.33%;
+    padding: 30px;
+}
+footer {
+    padding: 30px;
+}
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
